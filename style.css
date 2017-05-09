@@ -1,0 +1,160 @@
+/*
+ Theme Name:   Ventififteen
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Kenneth Dait
+ Author URI:   http://kenanigans.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+body, button, input, select, textarea {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.site-title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.site-branding .site-description {
+	margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.entry-footer span {
+	color: red;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.entry-footer span a {
+	font-family: Inconsolata;
+	word-spacing: -.35em;
+	letter-spacing: .03em;
+
+}
+
+.entry-footer span.sticky-post {
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 1em;
+  background-color: red;
+}
+
+code {
+  background-color: rgba(100,100,100,.3);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.entry-content > ul > li > a:link,
+.entry-content > p > a:link {
+background-color: rgba(255, 0, 0, 0.2);
+padding-left: 3px;
+padding-right: 3px;
+}
+
+.entry-content > ul > li > a:hover,
+.entry-content > p > a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+ins {
+  border-bottom: 2px dotted green;
+  background-color: rgba(0,255,0,.2);
+}
+
+del, strike {
+  text-decoration-color: red;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+}
+
+cite {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .7em;
+  text-transform: uppercase;
+}
+
+abbr {
+  background-color: rgba(0,100,240,.2);
+  /*border-bottom: 2px solid red;*/
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+dt {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*text-transform: uppercase;*/
+  background-color: #333;
+  color: #fff;
+  padding: 0 10px;
+  font-size: .75em;
+}
+
+dd {
+  /*padding-left: 10px;
+  padding-top: 5px;
+  border-left: 1px dashed black;*/
+  padding: 0 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .8em;
+  background-color: rgba(0,0,0,.1);
+}
+
+ul>li {
+  list-style-type: disc;
+}
+
+ul>li>ul>li {
+  /*list-style-type:  circle;*/
+  list-style-type: circle;
+}
+
+ul>li>ul>li>ul>li {
+  list-style-type:  lower-roman;
+}
+
+ol>li>ol>li {
+  list-style-type: lower-alpha;
+}
+
+ol>li>ol>li>ol>li {
+  list-style-type: lower-roman;
+}
+
+.wp-caption-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .6em;
+}
+
+.site-info > p {
+  font-family: Inconsolata;
+  font-size: .7em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.site-info {
+  padding: 2% 5%;
+}
+
+.menu-item {
+  list-style: none;
+}
